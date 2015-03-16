@@ -12,7 +12,7 @@ namespace WATSerialCom
 {
   public partial class Form1 : Form
   {
-    // test 3
+    // test 3 4
     public Form1()
     {
       InitializeComponent();
