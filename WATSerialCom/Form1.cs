@@ -199,13 +199,13 @@ namespace WATSerialCom
       {
         sp1.Write(oSendDatas.byteData.ToArray(), 0, oSendDatas.byteData.Count);
       } catch { }
-    }
-     
+    } 
+       
     // 데이터를 받으면
     private void sp1_DataReceived(object sender, SerialDataReceivedEventArgs e)
     {
       try
-      { 
+      {  
         int iRecSize = sp1.BytesToRead; // 수신된 데이터 갯수
 
         if (iRecSize != 0) // 수신된 데이터의 수가 0이 아닐때만 처리하자
@@ -227,7 +227,7 @@ namespace WATSerialCom
       } 
       catch (System.Exception)
       {
-      }
+      } 
     }
   }
 }
